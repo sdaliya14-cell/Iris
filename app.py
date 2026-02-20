@@ -1,7 +1,7 @@
 import streamlit as st
 from sklearn.datasets import load_iris
 data=load_iris()
-from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import RandomForestClassifier
 model=RandomForestClassifier()
 x=data.data
 y=data.target
