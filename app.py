@@ -11,6 +11,6 @@ sl=st.number_input('enter sepal length')
 sw=st.number_input('enter sepal width')
 pl=st.number_input('enter petal length')
 pw=st.number_input('enter petal width')
-y_pred=model.predict([[sl,sw,pi,pw]])
+y_pred=model.predict([[sl,sw,pl,pw]])
 op=data.target_names[y_pred[0]]
 st.write(op)
